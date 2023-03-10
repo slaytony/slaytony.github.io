@@ -7,5 +7,5 @@ export default function IndexPage(){
     <h1>hello</h1>
   )
 }
-
+  
 export const Head: HeadFC = () => <title>SlayTony | BLOG</title>
