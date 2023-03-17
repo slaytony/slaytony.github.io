@@ -5,7 +5,6 @@ module.exports = {
     author: `SlayTony`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  pathPrefix: "/slaytony.github.io",
   plugins: [
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
