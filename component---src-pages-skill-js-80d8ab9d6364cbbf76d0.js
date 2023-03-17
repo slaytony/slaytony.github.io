@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[511],{4435:function(e,t,l){l.r(t),l.d(t,{default:function(){return r}});var n=l(7294),u=l(5991);function r(){return n.createElement(u.Z,null,n.createElement("div",null,n.createElement("h2",null,"Skills"),n.createElement("p",null,"1"),n.createElement("p",null,"2"),n.createElement("p",null,"3")))}}}]);
+//# sourceMappingURL=component---src-pages-skill-js-80d8ab9d6364cbbf76d0.js.map

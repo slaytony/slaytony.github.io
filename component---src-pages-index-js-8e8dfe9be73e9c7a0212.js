@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[678],{6558:function(e,t,l){l.r(t),l.d(t,{default:function(){return a}});var n=l(7294),r=(l(1883),l(5991));function a(e){let{data:t}=e;return n.createElement(r.Z,null,n.createElement("div",null,n.createElement("h2",null,"Portfolio"),n.createElement("h3",null,"Projects & Websites I've Created"),n.createElement("div",null)))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-8e8dfe9be73e9c7a0212.js.map
