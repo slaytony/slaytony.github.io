@@ -11,8 +11,8 @@ const ProjectDetails = ({ data }) => {
     <Layout>
         <div>
           <h2 className='postTitle_detail'>{title}</h2>
-          <p className='postDate'>{date}</p>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
+          {/* <p className='postDate'>{date}</p> */}
+          <div className='postDesc_detail' dangerouslySetInnerHTML={{ __html: html }} />
         </div>
     </Layout>
   )

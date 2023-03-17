@@ -11,9 +11,9 @@ export default function Navbar() {
           title
         }
       }
-      file(relativePath: {eq: "gate.png"}) {
+      file(relativePath: {eq: "gate2.png"}) {
         childImageSharp {
-          gatsbyImageData(width: 200, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+          gatsbyImageData(width: 200, placeholder: NONE, formats: [AUTO, WEBP, AVIF])
         }
       }
     }

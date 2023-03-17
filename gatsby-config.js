@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "G-NRNJEKCM2Q"
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -46,6 +52,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-github-pages`,
       options: {
+      },
+    },
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+            },
+          },
+        ],
       },
     },
   ],

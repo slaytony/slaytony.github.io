@@ -2,3 +2,4 @@
 require("prismjs/themes/prism-tomorrow.css");
 require("prismjs/plugins/line-numbers/prism-line-numbers.css");
 require("./src/styles/prism-custom.css");
+require('./src/css/markdown.css');
