@@ -1,0 +1,168 @@
+/* Set default styles for html, body, and layout */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.layout {
+  height: 100%;
+}
+
+.introduce {
+  float: left;
+  /* width: 20%; */
+
+  height: 937px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
+
+.intro {
+  margin-left: 50px;
+}
+
+.introDetail {
+  flex-direction: column;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+
+.navbarHr {
+  background:black;
+  width: 207px;
+  position: relative;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+
+.links {
+  margin-top: 44px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  margin-bottom: 15px;
+  margin-left: 8px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.2s ease-out;
+}
+
+.links a:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -8px;
+  height: 100%;
+  width: 1px;
+  background-color: black;
+}
+
+.links a:hover {
+  color: #333;
+}
+
+
+.content {
+  width: 70%;
+  max-width: 1110px;
+  height: 937px;
+  background-color: rgb(255, 255, 255);
+  margin: 41px auto 0;
+  padding: 40px;
+}
+
+.postTitle {
+  box-shadow: inset 0 -0.5em 0 #fff4d9;
+  width: max-content; /* 텍스트 길이만큼만 차지하도록 지정 */
+}
+
+.postTitle_detail {
+  font-size: 35px;
+}
+
+.postDate {
+  color: #555;
+}
+
+.postDesc {
+  min-height: 45px;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.post {
+  display: block;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 320px;
+  margin: 0 1rem 1rem 0;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  min-height: 100px;
+  height: 200px;
+}
+
+.stack {
+  display: inline-block;
+  background-color: rgb(68 69 72);
+  color: #fff;
+  padding: 3px 8px;
+  margin-right: 5px;
+  border-radius: 45px;
+  font-size: 13px;
+}
+
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+  
+  .introduce {
+    width: 100%;
+    height: 50%;
+    float: none;
+    
+  }
+  
+  .content {
+    width: 100%;
+    height: 50%;
+    margin: 43px auto 0;
+  }
+
+  .intro_img {
+    display: block;
+    margin: 4px 63px;
+  }
+
+  .navbarHr {
+    background:black;
+    width: 386px;
+    position: relative;
+    margin-top: 45px;
+    margin-left: 48px;
+  }
+}
+
+
+
+

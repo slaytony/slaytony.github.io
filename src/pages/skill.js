@@ -1,15 +1,15 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-const NotFound = () => {
+export default function skill() {
   return (
     <Layout>
       <div>
-        <h2>404</h2>
-        <p>Sorry, that page doesn't exist (yet)!</p>
+          <h2>Skills</h2>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
       </div>
     </Layout>
-  );
+  )
 }
- 
-export default NotFound
